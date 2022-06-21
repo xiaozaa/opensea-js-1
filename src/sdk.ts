@@ -1,4 +1,4 @@
-import { Seaport } from "@opensea/seaport-js";
+import { Seaport } from "@opensea/seaport-js-gas-adjust";
 import { CROSS_CHAIN_SEAPORT_ADDRESS } from "@opensea/seaport-js/lib/constants";
 import {
   ConsiderationInputItem,
@@ -175,6 +175,10 @@ export class OpenSeaSDK {
   public gasPriceAddition = new BigNumber(3);
   // Multiply gas estimate by this factor when making transactions
   public gasIncreaseFactor = DEFAULT_GAS_INCREASE_FACTOR;
+  //
+  public gaslimitFromUser = 0;
+  public maxPriorityFeeFromUser = "";
+  public maxFeeFromUser = "";
 
   private _networkName: Network;
   private _wyvernProtocol: WyvernProtocol;
@@ -1520,6 +1524,16 @@ export class OpenSeaSDK {
         order,
         accountAddress,
       });
+    }
+
+    if (this.maxPriorityFeeFromUser) {
+      this.seaport.maxPriorityFeePerGas = this.maxPriorityFeeFromUser;
+    }
+    if (this.maxFeeFromUser) {
+      this.seaport.maxFeePerGas = this.maxFeeFromUser;
+    }
+    if (this.gaslimitFromUser) {
+      this.seaport.gasLimit = this.gaslimitFromUser;
     }
 
     let transactionHash: string;

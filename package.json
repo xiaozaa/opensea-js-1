@@ -33,7 +33,7 @@
   "types": "lib/index.d.ts",
   "dependencies": {
     "@opensea/seaport-js": "^1.0.0",
-    "@opensea/seaport-js-gas-adjust": "git+https://github.com/xiaozaa/seaport-js.git",
+    "@opensea/seaport-js-gas-adjust": "https://github.com/xiaozaa/seaport-js.git",
     "ajv": "^8.11.0",
     "bignumber.js": "9.0.2",
     "ethereumjs-abi": "git+https://github.com/ProjectWyvern/ethereumjs-abi.git",

@@ -1,5 +1,5 @@
 {
-  "name": "opensea-js",
+  "name": "opensea-js-gas-adjust",
   "version": "4.0.2",
   "description": "JavaScript SDK for the OpenSea marketplace. Let users buy or sell crypto collectibles and other cryptogoods, all on your own site!",
   "license": "MIT",
@@ -44,8 +44,8 @@
     "lodash": "^4.17.21",
     "query-string": "^6.11.1",
     "web3": "1.7.0",
-    "wyvern-js": "git+https://github.com/ProjectOpenSea/wyvern-js.git#d283749f3d983a9c9e2e4da925441f75e170c9f0",
-    "wyvern-schemas": "git+https://github.com/ProjectOpenSea/wyvern-schemas.git#3290fc095649f5552b560bfcb1f0fa49acf13894"
+    "wyvern-js": "https://github.com/ProjectOpenSea/wyvern-js.git#d283749f3d983a9c9e2e4da925441f75e170c9f0",
+    "wyvern-schemas": "https://github.com/ProjectOpenSea/wyvern-schemas.git#3290fc095649f5552b560bfcb1f0fa49acf13894"
   },
   "devDependencies": {
     "@typechain/web3-v1": "^5.0.0",

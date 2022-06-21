@@ -33,10 +33,10 @@
   "types": "lib/index.d.ts",
   "dependencies": {
     "@opensea/seaport-js": "^1.0.0",
-    "@opensea/seaport-js-gas-adjust": "https://github.com/xiaozaa/seaport-js.git",
+    "@opensea/seaport-js-gas-adjust": "github:xiaozaa/seaport-js",
     "ajv": "^8.11.0",
     "bignumber.js": "9.0.2",
-    "ethereumjs-abi": "https://github.com/ProjectWyvern/ethereumjs-abi.git",
+    "ethereumjs-abi": "github:ProjectWyvern/ethereumjs-abi",
     "ethereumjs-util": "^5.2.0",
     "ethers": "^5.6.6",
     "fbemitter": "2.1.1",
@@ -44,8 +44,8 @@
     "lodash": "^4.17.21",
     "query-string": "^6.11.1",
     "web3": "1.7.0",
-    "wyvern-js": "https://github.com/ProjectOpenSea/wyvern-js.git#d283749f3d983a9c9e2e4da925441f75e170c9f0",
-    "wyvern-schemas": "https://github.com/ProjectOpenSea/wyvern-schemas.git#3290fc095649f5552b560bfcb1f0fa49acf13894"
+    "wyvern-js": "github:ProjectOpenSea/wyvern-js#d283749f3d983a9c9e2e4da925441f75e170c9f0",
+    "wyvern-schemas": "github:ProjectOpenSea/wyvern-schemas#3290fc095649f5552b560bfcb1f0fa49acf13894"
   },
   "devDependencies": {
     "@typechain/web3-v1": "^5.0.0",

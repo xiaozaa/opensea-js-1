@@ -1,4 +1,4 @@
-import { ItemType } from "@opensea/seaport-js/lib/constants";
+import { ItemType } from "@opensea/seaport-js-gas-adjust/lib/constants";
 import BigNumber from "bignumber.js";
 import { AbiType, CallData, TxData } from "ethereum-types";
 import * as ethUtil from "ethereumjs-util";

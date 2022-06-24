@@ -1,6 +1,6 @@
 {
   "name": "opensea-js-gas-adjust",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "JavaScript SDK for the OpenSea marketplace. Let users buy or sell crypto collectibles and other cryptogoods, all on your own site!",
   "license": "MIT",
   "author": "OpenSea Developers",
@@ -32,8 +32,7 @@
   },
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@opensea/seaport-js": "^1.0.0",
-    "@opensea/seaport-js-gas-adjust": "git+https://github.com/xiaozaa/seaport-js.git",
+    "@opensea/seaport-js-gas-adjust": "github:xiaozaa/seaport-js#c7ca9658f93f28651bda589f5c538383fdb8135f",
     "ajv": "^8.11.0",
     "bignumber.js": "9.0.2",
     "ethereumjs-abi": "github:ProjectWyvern/ethereumjs-abi",

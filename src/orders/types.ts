@@ -1,4 +1,4 @@
-import { OrderWithCounter } from "@opensea/seaport-js/lib/types";
+import { OrderWithCounter } from "@opensea/seaport-js-gas-adjust/lib/types";
 import { OpenSeaAccount, OpenSeaAssetBundle } from "../types";
 
 // Protocol data
